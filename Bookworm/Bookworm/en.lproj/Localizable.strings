@@ -1,0 +1,36 @@
+// ContentView
+"ContentView.Navigation.Title" = "Bookworm";
+
+// GenreListView
+"GenreList.Section.Title" = "Genre List:";
+
+// CreateGenreView
+"CreateGenreView.Genre.Title" = "Genre title:";
+"CreateGenreView.TextField.Placeholder" = "Enter a title";
+"CreateGenreView.Navigation.Title" = "Create genre";
+"CreateGenreView.CloseButton.Title" = "Close";
+"CreateGenreView.AddButton.Title" = "Add";
+
+// BooksView
+"BooksView.Title.SortDescriptor" = "Title";
+"BooksView.Author.SortDescriptor" = "Author";
+"BooksView.Rating.SortDescriptor" = "Rating";
+"BooksView.Navigation.Title" = "%@ books";
+"BooksView.AddBookButton.Title" = "Add a book";
+
+// BookDetailView
+"BookDetailView.TitleSection.Title" = "Title";
+"BookDetailView.AuthorSection.Title" = "Author";
+"BookDetailView.GenreSection.Title" = "Genre";
+"BookDetailView.NotesSection.Title" = "Notes";
+"BookDetailView.RatingSection.Title" = "Rating: %@";
+
+// CreateBookView
+"CreateBookView.Navigation.Title" = "Create a book";
+"CreateBookView.TitleTextField.Placeholder" = "Enter a title";
+"CreateBookView.AuthorTextField.Placeholder" = "Enter an author";
+"CreateBookView.RatingSlider.Title" = "Rating: %@";
+"CreateBookView.NotesSection.Title" = "Notes";
+"CreateBookView.CloseButton.Title" = "Close";
+"CreateBookView.AddButton.Title" = "Add";
+

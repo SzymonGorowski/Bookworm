@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Book" representedClassName="Book" syncable="YES">
+        <attribute name="author" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="rating" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="genre" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenreList" inverseName="books" inverseEntity="GenreList"/>
+    </entity>
+    <entity name="GenreList" representedClassName="GenreList" syncable="YES">
+        <attribute name="title" attributeType="String"/>
+        <relationship name="books" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Book" inverseName="genre" inverseEntity="Book"/>
+    </entity>
+    <elements>
+        <element name="Book" positionX="-54" positionY="-9" width="128" height="104"/>
+        <element name="GenreList" positionX="-63" positionY="-18" width="128" height="59"/>
+    </elements>
+</model>

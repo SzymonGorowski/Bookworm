@@ -1,0 +1,7 @@
+platform :ios, '15.5'
+
+target 'Bookworm' do
+
+  # Pods for Bookworm
+  pod 'SwiftGen', '~> 6.0'
+end

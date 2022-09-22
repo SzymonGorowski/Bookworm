@@ -1,0 +1,13 @@
+input_dir: Bookworm/
+output_dir: Bookworm/Generated/
+
+##Strings
+strings:
+    inputs:
+        - en.lproj
+    outputs:
+        templateName: structured-swift5
+        params:
+            publicAccess: true
+            enumName: Strings
+        output: Strings+Generated.swift
